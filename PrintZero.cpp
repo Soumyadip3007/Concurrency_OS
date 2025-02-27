@@ -14,9 +14,9 @@ class ZeroEvenOdd {
             PRINT_ZERO_BEFORE_EVEN,
             PRINTED_ZERO_BEFORE_EVEN,
         };
-        int currNum{1};
+        int currNum{1}; //can be taken as atomic
     public:
-        ZeroEvenOdd(int n) {
+        ZeroEvenOdd(int n) { //constructor
             this->n = n;
         }
     
